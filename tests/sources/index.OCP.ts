@@ -1,4 +1,4 @@
-import { runBattles, pve, pvp, player1, player2, player3, monster1, monster2 } from '../../src/Races';
+import { runBattles, pve, pvp, player1, player2, player3, monster1, monster2 } from '../../src';
 import Battle from '../../src/Battle';
 import Fighter from '../../src/Fighter';
 

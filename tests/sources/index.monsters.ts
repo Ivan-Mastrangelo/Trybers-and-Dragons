@@ -1,4 +1,4 @@
-import { monster1, monster2 } from '../../src/Races';
+import { monster1, monster2 } from '../../src';
 import Dragon from '../../src/Dragon';
 import Monster from '../../src/Monster';
 
