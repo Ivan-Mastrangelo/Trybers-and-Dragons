@@ -1,4 +1,4 @@
-import { PVP, PVE } from './Battle';
+import Battle, { PVP, PVE } from './Battle';
 import Character from './Character';
 import Dragon from './Dragon';
 import Monster from './Monster';
@@ -18,8 +18,8 @@ const pvp = new PVP(player2, player3);
 
 const pve = new PVE(player1, [monster1, monster2]);
 
-// function runBattles(battles: Battle[]) {
-  
-// }
+function runBattles(battles: Battle[]) {
+  battles.map((battle) => battle.fight());
+}
 
-export { player1, player2, player3, monster1, monster2, pvp, pve };
+export { player1, player2, player3, monster1, monster2, pvp, pve, runBattles };
