@@ -1,4 +1,4 @@
-import Monster from "./Monster";
+import Monster from './Monster';
 
 class Dragon extends Monster {
   constructor() {
